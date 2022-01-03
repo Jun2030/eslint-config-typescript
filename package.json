@@ -1,0 +1,49 @@
+{
+  "name": "@jun/eslint-config-typescript",
+  "version": "1.0.0",
+  "description": "ESLint rules according to zijun' personal preference",
+  "main": "index.js",
+  "files": [],
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jun2030/eslint-config-typescript.git"
+  },
+  "homepage": "https://github.com/Jun2030/eslint-config-typescript#readme",
+  "bugs": {
+    "url": "https://github.com/Jun2030/eslint-config-typescript/issues"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "eslintconfig",
+    "typescript",
+    "vue"
+  ],
+  "author": "Zijun",
+  "private": false,
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.6.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "vue-eslint-parser": "^8.0.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.0.1",
+    "@commitlint/config-conventional": "^16.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.5",
+    "typescript": "^4.5.4"
+  },
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+  },
+  "license": "MIT"
+}

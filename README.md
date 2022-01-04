@@ -10,13 +10,13 @@
 `npm` / `yarn` / `pnpm` 安装
 ```bash
 # npm install
-npm install @jun/eslint-config-typescript -D
+npm install @2030/eslint-config-typescript -D
 
 # yarn install
-yarn add @jun/eslint-config-typescript -D
+yarn add @2030/eslint-config-typescript -D
 
 # pnm install
-pnpm install @jun/eslint-config-typescript -D
+pnpm install @2030/eslint-config-typescript -D
 ```
 
 ### 👉‍标准规则
@@ -28,7 +28,7 @@ pnpm install @jun/eslint-config-typescript -D
 
 ```js
 module.exports = {
-  extends: ['@jun/eslint-config-typescript'],
+  extends: ['@2030/eslint-config-typescript'],
   globals: {
     // 项目中需要的全局变量, e.g.
     // $: true
@@ -48,7 +48,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: ['@jun/eslint-config-typescript/vue3'],
+  extends: ['@2030/eslint-config-typescript/vue3'],
   globals: {
     // 项目中需要的全局变量, e.g.
     // $: true

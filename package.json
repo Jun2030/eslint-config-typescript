@@ -1,7 +1,7 @@
 {
-  "name": "@jun/eslint-config-typescript",
-  "version": "1.0.0",
-  "description": "ESLint rules according to zijun' personal preference",
+  "name": "@2030/eslint-config-typescript",
+  "version": "1.0.1",
+  "description": "ESLint rules according to Zijun' personal preference",
   "main": "index.js",
   "files": [],
   "scripts": {
@@ -25,6 +25,9 @@
   ],
   "author": "Zijun",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
